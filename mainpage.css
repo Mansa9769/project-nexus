@@ -1,0 +1,442 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+.sidepanel{
+height:910px;
+width:70px;
+background-color:rgb(220,20,60);
+display: flex;
+flex-direction: column;
+align-items:center;
+z-index:300;
+}
+
+.logo{
+    background-image: url("logo1.jpeg");
+    height:60px;
+    width:60px;
+    background-size: cover;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left:2.35px;
+    transform: scale(0.9);
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:20px;
+}
+#facebook{
+    margin:20px;
+}
+#instagram{
+    margin:20px;
+}
+#twitter{
+    margin:20px;
+}
+
+#whatsapp{
+    margin:20px;
+}
+#mail{
+    margin:20px;
+}
+#telegram{
+    margin:20px;
+}
+#phone{
+    margin:20px;
+}
+#facebook:hover{
+    transform:scale(1.2);
+}
+#whatsapp:hover{
+    transform:scale(1.2);
+}
+#instagram:hover{
+    transform:scale(1.2);
+}
+#mail:hover{
+    transform:scale(1.2);
+}
+#twitter:hover{
+    transform:scale(1.2);
+}
+#telegram:hover{
+    transform:scale(1.2);
+}
+#phone:hover{
+    transform:scale(1.2);
+}
+.background{
+    background-image: url("hero_main4.avif");
+    background-size: cover;
+    height:980px;
+    width:100%px;
+}
+.info{
+    color:white;
+    background-color:transparent;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-style: solid;
+    border: none;
+    height:70px;
+    width:100%;
+}
+.search{
+    display:flex;
+    
+}
+.search-bar{
+
+    border-style: solid;
+    border-color:white;
+    height:40px;
+    width:400px;
+    background-color: transparent;
+    color: white;
+}
+
+#search-icon{
+border-style: solid;
+border-color:white;
+border-right: none;
+height:40px;
+width:30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+::placeholder{
+    color: white;
+    font-size: 17px;
+    border:none;
+    margin-left:5px;
+}
+
+.rName{
+    margin-left: 600px;
+    font-family:"Dancing Script";
+    font-size: 100px;
+    color:orangered;
+}
+.tagline{
+    display: flex;
+    margin-left: 600px;
+}
+
+.tagline p{
+    margin-right:10px;
+    font-family: "Satisfy";
+    font-size: 30px;
+    color:white;
+}
+.awards{
+    display: flex; 
+}
+.award1{
+    background-image: url("c1.png");
+    height:400px;
+    width:500px;
+    margin-left: 900px;
+    background-size:cover;
+    transform: scale(0.4);
+    margin-top: 30px;
+}
+.award2{
+    background-image: url("c2.jpeg");
+    background-size:cover;
+    height:500px;
+    width:500px;
+    margin-top:-36px;
+    transform: scale(0.3);
+    margin-left: -200px;
+}
+.award3{
+    background-image: url("c3.png");
+    background-size:cover;
+    height:500px;
+    width:500px;
+    margin-top:-36px;
+    transform: scale(0.3);
+    margin-left: -200px;
+}
+
+.midpanel{
+    /*background-image: url("m4.jpg");
+    background-size: cover;*/
+    background-color:black;
+    height:1600px;
+    width:100%;
+}
+ .panel1{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .menu{
+    height:350px;
+    width:500px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 80px;
+    border-radius: 10px;
+    color: aliceblue;
+ }
+ #starters{
+    background-color: rgb(110, 241, 154);
+    background-image:linear-gradient(to right,lightgreen,darkgreen);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style:solid;
+    border-color: green;
+    border-width: 6px;
+ }
+.sicon{
+    height:200px;
+    width:200px;
+    background-image: url("starters.webp");
+    background-size:cover;
+    border-style:solid;
+    border-color: green;
+    border-radius: 100px;
+
+}
+#starters p{
+font-family: "Playfair Display";
+color: rgb(2, 60, 2);
+font-size: 40px;
+}
+#starters a{
+    font-family: "Lobster";
+    font-size: 20px;
+    color: rgb(3, 53, 3);
+}
+
+#Main-course{
+    background-image:linear-gradient(to right,pink,rgb(225, 84, 107));
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:0 20px 35px white(0,0,1,0.9);
+    border-style:solid;
+    border-color:red;
+    border-width: 6px;
+ }
+.micon{
+    height:200px;
+    width:200px;
+    background-image: url("main-course.jpg");
+    background-size:cover;
+    border-style:solid;
+    border-color:red;
+    border-radius: 100px;
+
+}
+#Main-course p{
+font-family: "Playfair Display";
+color:red;
+font-size: 40px;
+}
+#Main-course a{
+    font-family: "Lobster";
+    font-size: 20px;
+    color:red;
+}
+
+.panel2{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .menu{
+    height:350px;
+    width:500px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow:0 20px 35px white(0,0,1,0.9);
+    color: aliceblue;
+ }
+ #Desserts{
+    background-image:linear-gradient(to right,yellow,orangered);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:0 20px 35px white(0,0,1,0.9);
+    border-style:solid;
+    border-color:orangered;
+    border-width: 6px;
+ }
+.dicon{
+    height:200px;
+    width:200px;
+    background-image: url("desserts.jpg");
+    background-size:cover;
+    border-style:solid;
+    border-color:orangered;
+    border-radius: 100px;
+
+}
+#Desserts p{
+font-family: "Playfair Display";
+color: rgb(231, 46, 14);
+font-size: 40px;
+}
+#Desserts a{
+    font-family: "Lobster";
+    font-size: 20px;
+    color:rgb(231, 46, 14);
+}
+
+#Drinks{
+    background-image: linear-gradient(to right,rgb(13, 203, 232),rgb(28, 28, 249));
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:0 20px 35px white(0,0,1,0.9);
+    border-style:solid;
+    border-color:darkblue;
+    border-width: 6px;
+ }
+.dricon{
+    height:200px;
+    width:200px;
+    background-image: url("drinks.jpg");
+    background-size:cover;
+    border-style:solid;
+    border-color:darkblue;
+    border-radius: 100px;
+
+}
+#Drinks p{
+font-family: "Playfair Display";
+color:darkblue;
+font-size: 40px;
+}
+#Drinks a{
+    font-family: "Lobster";
+    font-size: 20px;
+    color:darkblue;
+}
+.panel3{
+    height:400px;
+    width:100%;
+    color: white;
+    margin-top:100px;
+    display: flex;
+    
+}
+.About-us{
+    width:60%;
+    line-height: 1.6;
+}
+
+.panel3 h3{
+    font-family: "Dancing Script";
+    font-size: 120px;
+    margin-left:30px;
+}
+.panel3 p{
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    text-align: justify;
+    margin-left:30px;
+}
+
+.chef{
+    background-image: url("chef.jpg");
+    background-size: cover;
+    height:400px;
+    width:850px;
+}
+
+.endppanel{
+   background-color:rgb(220,20,60) ; 
+   height:150px;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+.location h4{
+    font-size: 30px;
+    font-family: "Josephin Sans";
+    margin-left:10px;
+    color:white;
+    font-weight: bold;
+
+}
+.location p{
+    font-family:"Josefin Sans";
+    color:white;
+    margin-left:10px;
+}
+
+.Contact-Us h4{
+    font-size: 30px;
+    font-family: "Josephin Sans";
+    color:white;
+    font-weight: bold;
+
+}
+.Contact-Us p{
+    font-family:"Josefin Sans";
+    color:white;
+
+}
+.mail h4{
+    font-size: 30px;
+    font-family: "Josephin Sans";
+    color:white;
+    font-weight: bold;
+
+}
+.mail p{
+    font-family:"Josefin Sans";
+    color:white;
+
+}
+.timings h4{
+    font-size: 30px;
+    font-family: "Josephin Sans";
+    color:white;
+    font-weight: bold;
+
+}
+.timings p{
+    font-family:"Josefin Sans";
+    color:white;
+
+}
+.online h4{
+    font-size: 30px;
+    font-family: "Josephin Sans";
+    color:white;
+    font-weight: bold;
+
+}
+.online li{
+    font-family:"Josefin Sans";
+    color:white;
+
+}
